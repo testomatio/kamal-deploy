@@ -4,7 +4,7 @@ branding:
   icon: 'arrow-right-circle'
   color: 'black'
 inputs:
-  capistrano_commands:
+  mrsk_commands:
     description: 'The Capistrano commands to run'
     required: true
     default: '["deploy"]'
