@@ -21,6 +21,11 @@ inputs:
     description: 'The directory from which to run the deploy command'
     required: false
     default: ''
+  connect_only:
+    description: 'Only connect without deploying'
+    required: false
+    default: ''
+
 
 runs:
   using: 'node16'
